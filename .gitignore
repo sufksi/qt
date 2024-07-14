@@ -1,0 +1,7 @@
+.flake8
+__pycache__/mylabel.cpython-38.pyc
+__pycache__/myQimg.cpython-38.pyc
+__pycache__/myQPixmap.cpython-38.pyc
+__pycache__/Ui_test.cpython-38.pyc
+test.jpg
+test.code-workspace
