@@ -1,5 +1,4 @@
-from turtle import pos
-from PyQt5.QtWidgets import QApplication, QFileDialog, QAction, QLabel, QLineEdit, QLineEdit, QComboBox, QTextEdit, QHBoxLayout
+from PyQt5.QtWidgets import QApplication, QFileDialog, QLabel, QLineEdit, QTextEdit, QHBoxLayout
 from PyQt5.QtGui import QPixmap, QPainter, QPen, QDoubleValidator, QIntValidator
 from PyQt5.uic import loadUi
 from PyQt5.QtCore import Qt, QRect, QRegExp
