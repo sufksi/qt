@@ -38,13 +38,6 @@ class MainProcess():
         labelimg.focusInSignal.connect(self.updateStatusBarInfo)
         labelimg.dropFileSignal.connect(self.dropShowImg)
 
-    def slotRoi(self):
-        if self.ui.textEditROI.toPlainText():
-            pat = r''
-            reg_exp = QRegExp(pat)
-            if reg_exp.exactMatch(self.ui.textEditROI.toPlainText()):
-                self.drawRect()
-
     def drawRect(self):
         isRoiValid = False
         if self.ui.textEditROI.toPlainText():
