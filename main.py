@@ -36,6 +36,8 @@ class MainProcess():
         labelimg: MyLabel = self.ui.labelShowImg
         labelimg.focusInSignal.connect(self.updateStatusBarInfo)
         labelimg.dropFileSignal.connect(self.dropShowImg)
+        print('debug_sfk', self.ui.splitter.size())
+        self.ui.splitter.setSizes([200000, 20])
 
     def drawRect(self):
         isRoiValid = False
